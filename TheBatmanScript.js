@@ -3,7 +3,7 @@ async function enviarScript(scriptText){
 	main = document.querySelector("#main"),
 	textarea = main.querySelector(`div[contenteditable="true"]`)
 	
-	if(!textarea) throw new Error("Não há uma conversa aberta")
+	if(!textarea) throw new Error("There is no open chat.")
 	
 	for(const line of lines){
 		console.log(line)
@@ -1908,4 +1908,4 @@ Batman: Take care of yourself.
 [ON BATMAN, staring hard ahead... finally, HIS EYES MOVE TO HIS SIDE MIRROR, unable to resist one last look, AS SHE RECEDES... His eyes lift again, racing toward his city, a look of sheer determination -- we HOLD, AS OUR VIEW ANGRILY VIBRATES WITH HIS EVER INCREASING SPEED... FASTER... AND FASTER... until, we...]
 [CUT TO BLACK.]
 [THE END.]
-`).then(e => console.log(`Código finalizado, ${e} mensagens enviadas`)).catch(console.error)
+`).then(e => console.log(`Code finished, ${e} messages sent`)).catch(console.error)

@@ -1,25 +1,25 @@
 # SendScriptWhatsApp
 
-Código para enviar o Script inteiro de The Batman via WhatsApp
+Code to send the entire Script of The Batman via WhatsApp.
 
-## Utilização
+## Usage
 
-- Abra [TheBatmanScript.js](https://github.com/andrelfmp3/SendTheBatmanScriptWhatsApp/blob/main/beeMovieSendScript.js)
+- Open [TheBatmanScript.js](https://github.com/andrelfmp3/SendTheBatmanScriptWhatsApp/blob/main/TheBatmanScript.js)
 
+- Copy all the content (click on raw -> ctrl+a -> ctrl+c).
 
-- Copie todo o conteúdo (clique em raw -> ctrl+a -> ctrl+c)
+- In WhatsApp Web, open the Browser console.
 
-- No WhatsApp Web abra o console do Browser
+- Paste the code into the console and press Enter.
 
-- Cole o código no console e aperte Enter
+- Avoid leaving the chat until the process is complete.    
 
-- Pronto
-# 
- ### ⚠️ Aviso importante: 
- 
- Em uma atualização do Google Chrome, está sendo impedido que qualquer script seja colado no Console. 
- 
- Para contornar esse problema, o console do desenvolvedor espera receber um confirmação textual escrevendo no console: "allow pasting"| 
+- Done.
 
-Após isso será permitido colar e continuar a execução do script
+### ⚠️ Important notice:
 
+In some browsers, pasting scripts into the Console is blocked.
+
+To work around this issue, the developer console expects to receive a text confirmation by typing in the console: "allow pasting", or similar
+
+After this, pasting will be allowed and the script can be executed.
